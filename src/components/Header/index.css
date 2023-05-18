@@ -1,0 +1,80 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.nav-content {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.website-logo {
+  width: 50px;
+}
+.popup-container {
+}
+.HamburgerMenu-button {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.HamburgerMenu-icon {
+  width: 20px;
+  height: 20px;
+}
+.menu-pop-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.close-button {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+.close-icon {
+  width: 20px;
+  height: 20px;
+}
+.content {
+  margin: auto;
+  padding: 0px;
+  list-style-type: none;
+}
+.popup-item-container {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.popup-item-icon {
+  width: 25px;
+  height: 25px;
+  color: #616e7c;
+  margin-right: 10px;
+}
+.item-name {
+  margin: 0px;
+  color: #616e7c;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-header {
+    padding: 20px 0px;
+  }
+  .HamburgerMenu-icon {
+    width: 25px;
+    height: 25px;
+  }
+}

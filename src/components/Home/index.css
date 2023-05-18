@@ -1,0 +1,23 @@
+.home-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.sm-home-img {
+  width: 100%;
+  max-width: 300px;
+}
+.lg-home-img {
+  display: none;
+  max-width: 700px;
+}
+@media screen and (min-width: 992px) {
+  .lg-home-img {
+    display: flex;
+  }
+  .sm-home-img {
+    display: none;
+  }
+}
